@@ -1,9 +1,10 @@
-import sqlite3
-import pandas as pd
-import os
-import json
 import argparse
+import json
+import os
+import pandas as pd
+import sqlite3
 
+__author__="susheel"
 
 def sqlite_metadata(db_path):
   """

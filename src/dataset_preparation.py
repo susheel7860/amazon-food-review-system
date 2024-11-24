@@ -1,8 +1,11 @@
-import sqlite3
-import pandas as pd
 import argparse
 import os
+import pandas as pd
+import sqlite3
+
 from .generate_metadata import generate_metadata, save_metadata
+
+__author__ = "susheel"
 
 
 def process_database(db_path):

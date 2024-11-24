@@ -1,4 +1,5 @@
 #!/bin/bash
+
 from_path=/datahub/public_datasets/amazon_food_review_system
 to_path=/codehub/apps/amazon-food-review-system
 
